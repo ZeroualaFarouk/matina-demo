@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    color: #333;
+    transition: all 0.4s ease;
+  }
+  
+  nav {
+    width: 100%;
+    background: #fff;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  nav .logo a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.6rem;
+    color: #b00050;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    color: #333;
+    font-size: 1rem;
+    transition: color 0.3s;
+  }
+  
+  nav ul li a:hover {
+    color: #b00050;
+  }
+  
+  section {
+    padding: 120px 20px 60px;
+    text-align: center;
+  }
+  
+  .welcome {
+    background: #ffe5ec;
+  }
+  
+  .welcome h1 {
+    font-size: 3.5rem;
+    margin-bottom: 30px;
+    color: #b00050;
+  }
+  
+  .fruit-strip {
+    display: flex;
+    justify-content: center;
+    gap: 0;
+    flex-wrap: wrap;
+  }
+  
+  .fruit-strip img {
+    width: 20%;
+    height: auto;
+    transition: transform 0.4s ease;
+  }
+  
+  .fruit-strip img:hover {
+    transform: scale(1.05);
+  }
+  
+  .gallery {
+    background: #fff8e7;
+  }
+  
+  .gallery h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+  }
+  
+  .gallery-pair {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .gallery-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .box {
+    background: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    transition: transform 0.3s ease;
+  }
+  
+  .box:hover {
+    transform: translateY(-10px);
+  }
+  
+  .box img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .caption {
+    padding: 15px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .about {
+    background: #e0eaff;
+    padding: 120px 40px;
+    text-align: left;
+  }
+  
+  .about h2 {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .about p {
+    max-width: 900px;
+    margin: 0 auto 30px auto;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+  }
+  
+  .contact {
+    background: #ede0ff;
+  }
+  
+  .contact h2 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .contact-row a {
+    text-decoration: none;
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: color 0.3s ease;
+  }
+  
+  .contact-row a:hover {
+    color: #b00050;
+  }
+  
+  footer {
+    background: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  

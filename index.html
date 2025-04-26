@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Matina - Crafted with Love</title>
+  
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet"/>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<!-- Navbar -->
+<nav>
+  <div class="logo"><a href="#home">Matina</a></div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- Welcome Section -->
+<section class="welcome" id="home">
+  <h1>Welcome to Matina 🍓</h1>
+  <div class="fruit-strip">
+    <img src="images/strawberry.png" alt="Strawberry" />
+    <img src="images/blueberry.png" alt="Blueberry" />
+    <img src="images/blackberry.png" alt="Blackberry" />
+    <img src="images/cherry.png" alt="Cherry" />
+    <img src="images/watermelon.png" alt="Watermelon" />
+  </div>
+</section>
+
+<!-- Gallery Section -->
+<section class="gallery" id="gallery">
+  <h2>Our Jam Creations</h2>
+  <div class="gallery-pair">
+    <div class="box"><img src="images/1.png"><div class="caption">Raspberry Jam</div></div>
+    <div class="box"><img src="images/2.png"><div class="caption">Watermelon Jam</div></div>
+  </div>
+  <div class="gallery-pair">
+    <div class="box"><img src="images/3.png"><div class="caption">Blueberry Jam</div></div>
+    <div class="box"><img src="images/4.png"><div class="caption">Classic Blueberry</div></div>
+  </div>
+  <div class="gallery-pair">
+    <div class="box"><img src="images/5.png"><div class="caption">Strawberry Jam</div></div>
+    <div class="box"><img src="images/6.png"><div class="caption">Strawberry (Gray BG)</div></div>
+  </div>
+  <div class="gallery-center">
+    <div class="box"><img src="images/7.png"><div class="caption">Matina Pixar Girl</div></div>
+  </div>
+</section>
+
+<!-- About Section -->
+<section class="about" id="about">
+  <h2>About Matina</h2>
+
+  <p>At Matina, we believe that food is more than nourishment — it’s an experience, a connection, and a celebration of creativity. Our jams are born from this philosophy.</p>
+
+  <p>We blend tradition with innovation, using only the freshest, highest-quality fruits, and infuse each jar with our playful spirit. But what sets us apart is our storytelling: we bring imagination to life by turning our jam-making process into a LEGO-powered adventure. It’s not just about making jam — it’s about building happiness, one brick and one berry at a time.</p>
+
+  <p>Every product is crafted with a deep respect for craftsmanship, color, and character. Whether it’s our iconic Pixar-style characters, our aesthetic packaging, or our delightful jam flavors — we care about every detail. Each jar is more than food, it’s a moment of joy, waiting to be shared.</p>
+
+  <p>Welcome to Matina. Where taste meets storytelling.</p>
+</section>
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <h2>Contact Us</h2>
+  <div class="contact-row">
+    <a href="#"><i class="fas fa-envelope"></i> Email</a>
+    <a href="#"><i class="fas fa-phone"></i> Phone</a>
+    <a href="#"><i class="fab fa-instagram"></i> Instagram</a>
+    <a href="#"><i class="fab fa-facebook"></i> Facebook</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 Matina. All rights reserved.
+</footer>
+
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
+      document.querySelector(this.getAttribute('href'))
+        .scrollIntoView({ behavior: 'smooth' });
+    });
+  });
+</script>
+
+</body>
+</html>
